@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8b402ed7-00fa-4f5f-a327-d4c48a9f6c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{92df073c-0c6b-4516-ae5e-34fb137e9451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Start Screen">
+      <UniqueIdentifier>{5d2bb9ee-c62c-4f1a-ad5d-e51741b631b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{bc0da6b5-590b-4729-81d7-2330ca06ddaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{f61df780-6a1a-4916-820b-f3668a6ddd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Play Screen">
+      <UniqueIdentifier>{c60e190d-9686-493b-b4a0-9ddfa02fcaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Start Screen">
+      <UniqueIdentifier>{5d76842a-b8e5-4b5e-8d72-450a1b94ead5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Play Screen">
+      <UniqueIdentifier>{5ebe7ee9-42c5-4cff-ae48-8a0b827fc0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{813f7c2c-02fb-4f4b-8421-d1fe20edbbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{86275292-43b1-41af-b92e-1905fc0d6291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Town Screen">
+      <UniqueIdentifier>{ccf1d5ad-736b-4d5b-84e2-b45261094a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Town Screen">
+      <UniqueIdentifier>{c279e73f-da68-48f5-b4c7-4bd0cb516ed5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedTexture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSpawn.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity2.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionMap.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScreen2.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerMap.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="RainEffect.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="RainLayer.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevel.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevelData.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoreboard.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SewageMap.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Response.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen2.cpp">
+      <Filter>Source Files\Start Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="TedTheGuy.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbox.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="CutsceneScreen.cpp">
+      <Filter>Source Files\Start Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="ConversationState.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="TownScreen.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGrid.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Sidebar.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodGrid.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="RainProcess.cpp">
+      <Filter>Source Files\Town Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedTexture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSpawn.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversationState.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="CutsceneScreen.h">
+      <Filter>Header Files\Start Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity2.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionMap.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevel.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevelData.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScreen2.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerMap.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="RainEffect.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="RainLayer.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Response.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="SewageMap.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen2.h">
+      <Filter>Header Files\Start Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TedTheGuy.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbox.h">
+      <Filter>Header Files\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TownScreen.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Sidebar.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGrid.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodGrid.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="RainProcess.h">
+      <Filter>Header Files\Town Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
